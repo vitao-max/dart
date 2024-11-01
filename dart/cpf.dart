@@ -46,7 +46,8 @@ print("Informe seu cpf: ");
  
   if (resto1== cpfNumeros[9] && resto2 == cpfNumeros[10]) { //se o resto1 for igual ao numero no indice9 e p resto2 for ingual ao indice 10 quer dizer que o cpf é valido...
     print("O CPF informado é valido!");
-  } else { //caso alcntrario é invalido
+  } 
+  else { //caso alcntrario é invalido
     print("O CPF informado é invalido!");
   }
 
